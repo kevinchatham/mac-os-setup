@@ -38,6 +38,12 @@ brew install azure-cli
 echo "----- installing terraform cli ------"
 brew install terraform
 
+echo "----- installing alfred ------"
+brew install --cask alfred
+
+echo "----- installing rectangle ------"
+brew install --cask rectangle
+
 echo "----- installing notes ------"
 curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | PREFIX=$HOME bash
 

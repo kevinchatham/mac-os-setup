@@ -44,6 +44,9 @@ echo "----- installing alfred ------"
 brew install --cask alfred
 
 echo "----- installing amethyst ------"
+brew install --cask rectangle
+
+echo "----- installing amethyst ------"
 brew install --cask amethyst
 cp com.amethyst.Amethyst.plist ~/Library/Preferences/com.amethyst.Amethyst.plist
 

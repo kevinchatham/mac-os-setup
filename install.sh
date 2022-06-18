@@ -44,8 +44,11 @@ brew install --cask alfred
 echo "----- installing rectangle ------"
 brew install --cask rectangle
 
+echo "----- installing cheatsheet ------"
+brew install --cask cheatsheet
+
 echo "----- installing notes ------"
-curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh | PREFIX=$HOME bash
+curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh
 
 echo "----- installing alacritty terminal ------"
 brew install --cask alacritty

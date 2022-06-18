@@ -1,5 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
-
+export EDITOR="/opt/homebrew/bin/code"
 ZSH_THEME="calm"
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
@@ -19,3 +19,4 @@ alias powershell="pwsh"
 alias zsh-spectrum="spectrum_ls"
 alias zsh-config="code ~/.zshrc"
 alias zsh-themes="code ~/.oh-my-zsh"
+alias notes="~/bin/notes"

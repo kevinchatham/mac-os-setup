@@ -50,6 +50,9 @@ cp com.amethyst.Amethyst.plist ~/Library/Preferences/com.amethyst.Amethyst.plist
 echo "----- installing cheatsheet ------"
 brew install --cask cheatsheet
 
+echo "----- installing nmap ------"
+brew install nmap
+
 echo "----- installing alacritty terminal ------"
 brew install --cask alacritty
 mkdir ~/.config

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# https://github.com/steventheworker/Dock-Expos--home
+
 echo "----- hide all desktop icons ------"
 defaults write com.apple.finder CreateDesktop false
 killall Finder

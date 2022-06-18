@@ -94,3 +94,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 
 echo "----- configuring zshrc ------"
 cp .zshrc ~/.zshrc
+
+echo "----- cloning notes ------"
+cd ~
+git clone https://github.com/kevinchatham/Notes.git

@@ -223,8 +223,8 @@
       "modifierFlags" : 786432
     },
     "maximize" : {
-      "keyCode" : 36,
-      "modifierFlags" : 786432
+      "keyCode" : 3,
+      "modifierFlags" : 524288
     },
     "maximizeHeight" : {
       "keyCode" : 126,

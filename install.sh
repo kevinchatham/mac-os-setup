@@ -41,14 +41,12 @@ brew install terraform
 echo "----- installing alfred ------"
 brew install --cask alfred
 
-echo "----- installing rectangle ------"
-brew install --cask rectangle
+echo "----- installing amethyst ------"
+brew install --cask amethyst
+cp com.amethyst.Amethyst.plist ~/Library/Preferences/com.amethyst.Amethyst.plist
 
 echo "----- installing cheatsheet ------"
 brew install --cask cheatsheet
-
-echo "----- installing notes ------"
-curl -Ls https://raw.githubusercontent.com/pimterry/notes/latest-release/install.sh
 
 echo "----- installing alacritty terminal ------"
 brew install --cask alacritty

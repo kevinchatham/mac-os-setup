@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 # https://github.com/steventheworker/Dock-Expos--home
+echo "----- hide time machine disk notification ------"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.DiskArbitration.diskarbitrationd.plist DADisableEjectNotification -bool YES && sudo pkill diskarbitrationd
 
 echo "----- hide all desktop icons ------"
 defaults write com.apple.finder CreateDesktop false

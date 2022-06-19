@@ -15,6 +15,7 @@ ZSH_HIGHLIGHT_STYLES[path]=none
 alias e="exit"
 alias cls="clear"
 alias c="clear"
+alias clear-history="rm ~/.zsh_history && rm -r ~/.zsh_sessions && touch ~/.zsh_history && mkdir ~/.zsh_sessions"
 alias powershell="pwsh"
 alias zsh-spectrum="spectrum_ls"
 alias zsh-config="code ~/.zshrc"

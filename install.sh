@@ -62,6 +62,7 @@ cp ~/Git/mac-os-setup/com.amethyst.Amethyst.plist ~/Library/Preferences/com.amet
 
 # Backup Amethyst
 # cp ~/Library/Preferences/com.amethyst.Amethyst.plist ~/Git/mac-os-setup/com.amethyst.Amethyst.plist
+
 echo "----- installing cheatsheet ------"
 brew install --cask cheatsheet
 

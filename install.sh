@@ -20,6 +20,10 @@ brew install --cask visual-studio-code
 
 echo "----- install keepass ------"
 brew install --cask keepassxc
+cp ~/Git/mac-os-setup/org.keepassxc.keepassxc.plist ~/Library/Preferences/
+
+# Backup
+# cp ~/Library/Preferences/org.keepassxc.keepassxc.plist ~/Git/mac-os-setup/
 
 echo "----- install github desktop ------"
 brew install --cask caffeine

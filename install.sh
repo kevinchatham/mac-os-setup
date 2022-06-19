@@ -12,6 +12,12 @@ echo "----- install homebrew ------"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile;
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+echo "----- install powershell ------"
+brew install --cask powershell
+
+echo "----- install dotnet sdk ------"
+brew install --cask dotnet-sdk
+
 echo "----- install github desktop ------"
 brew install --cask github
 

@@ -58,7 +58,7 @@ brew install --cask rectangle
 
 echo "----- installing amethyst ------"
 brew install --cask amethyst
-cp com.amethyst.Amethyst.plist ~/Library/Preferences/com.amethyst.Amethyst.plist
+sudo cp com.amethyst.Amethyst.plist ~/Library/Preferences/com.amethyst.Amethyst.plist
 
 echo "----- installing cheatsheet ------"
 brew install --cask cheatsheet
@@ -115,4 +115,6 @@ echo "----- cloning notes ------"
 git clone https://github.com/kevinchatham/Notes.git ~
 
 echo "----- restoring dock ------"
-cp com.apple.dock.plist /Library/Preferences/com.apple.dock.plist
+
+echo "----- restoring dock ------"
+sudo cp ~/Git/mac-os-setup/com.apple.dock.plist /Library/Preferences/com.apple.dock.plist

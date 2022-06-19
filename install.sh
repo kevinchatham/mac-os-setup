@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# https://github.com/steventheworker/Dock-Expos--home
 echo "----- hide time machine disk notification ------"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.DiskArbitration.diskarbitrationd.plist DADisableEjectNotification -bool YES && sudo pkill diskarbitrationd
 
@@ -41,6 +40,9 @@ brew install azure-cli
 
 echo "----- installing terraform cli ------"
 brew install terraform
+
+echo "----- installing terraform cli ------"
+brew install --cask hiddenbar
 
 echo "----- installing alfred ------"
 brew install --cask alfred

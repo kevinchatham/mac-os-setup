@@ -58,8 +58,10 @@ brew install --cask rectangle
 
 echo "----- installing amethyst ------"
 brew install --cask amethyst
-sudo cp com.amethyst.Amethyst.plist ~/Library/Preferences/com.amethyst.Amethyst.plist
+cp ~/Git/mac-os-setup/com.amethyst.Amethyst.plist ~/Library/Preferences/com.amethyst.Amethyst.plist
 
+# Backup Amethyst
+# cp ~/Library/Preferences/com.amethyst.Amethyst.plist ~/Git/mac-os-setup/com.amethyst.Amethyst.plist
 echo "----- installing cheatsheet ------"
 brew install --cask cheatsheet
 

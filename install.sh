@@ -114,7 +114,7 @@ cp .zshrc ~/.zshrc
 echo "----- cloning notes ------"
 git clone https://github.com/kevinchatham/Notes.git ~
 
-echo "----- restoring dock ------"
-
-echo "----- restoring dock ------"
+echo "----- configuring dock ------"
 sudo cp ~/Git/mac-os-setup/com.apple.dock.plist /Library/Preferences/com.apple.dock.plist
+defaults write com.apple.Dock showhidden -bool yes
+killall Dock

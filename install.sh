@@ -53,7 +53,7 @@ brew install --cask mos
 echo "----- installing alfred ------"
 brew install --cask alfred
 
-echo "----- installing amethyst ------"
+echo "----- installing rectangle ------"
 brew install --cask rectangle
 
 echo "----- installing amethyst ------"
@@ -73,7 +73,7 @@ echo "----- installing alacritty terminal ------"
 brew install --cask alacritty
 mkdir ~/.config
 mkdir ~/.config/alacritty
-cp ./alacritty.yml ~/.config/alacritty/alacritty.yml
+cp ~/Git/mac-os-setup/alacritty.yml ~/.config/alacritty/alacritty.yml
 
 echo "----- install nvm ------"
 brew install nvm

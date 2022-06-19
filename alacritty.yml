@@ -42,13 +42,11 @@ window:
   opacity: 0.9
 
 scrolling:
-  # maximum number of lines in the scrollback buffer. Specifying '0' will
-  # disable scrolling.
-  history: 0
+  # maximum number of lines in the scrollback buffer. Specifying '0' will disable scrolling.
+  history: 1000
 
   # Number of lines the viewport will move for every line scrolled when
-  # scrollback is enabled (history > 0).
-  multiplier: 3
+  multiplier: 1
 
 # Font configuration (changes require restart)
 font:

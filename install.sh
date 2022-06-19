@@ -41,8 +41,14 @@ brew install azure-cli
 echo "----- installing terraform cli ------"
 brew install terraform
 
-echo "----- installing terraform cli ------"
+echo "----- installing figma ------"
+brew install --cask figma
+
+echo "----- installing hiddenbar ------"
 brew install --cask hiddenbar
+
+echo "----- installing mos ------"
+brew install --cask mos
 
 echo "----- installing alfred ------"
 brew install --cask alfred
@@ -106,5 +112,7 @@ echo "----- configuring zshrc ------"
 cp .zshrc ~/.zshrc
 
 echo "----- cloning notes ------"
-cd ~
-git clone https://github.com/kevinchatham/Notes.git
+git clone https://github.com/kevinchatham/Notes.git ~
+
+echo "----- restoring dock ------"
+cp com.apple.dock.plist /Library/Preferences/com.apple.dock.plist

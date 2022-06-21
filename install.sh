@@ -51,6 +51,11 @@ brew install azure-cli
 echo "----- installing terraform cli ------"
 brew install terraform
 
+echo "----- installing utm ------"
+brew install --cask utm
+brew tap sidneys/homebrew
+brew install aria2 cabextract wimlib cdrtools # sidneys/homebrew/chntpw
+
 echo "----- installing figma ------"
 brew install --cask figma
 
@@ -130,3 +135,6 @@ git clone https://github.com/kevinchatham/Notes.git ~
 echo "----- configuring dock ------"
 cp ~/Git/mac-os-setup/com.apple.dock.plist ~/Library/Preferences/com.apple.dock.plist
 killall Dock
+
+# Backup
+# cp ~/Library/Preferences/com.apple.dock.plist ~/Git/mac-os-setup/com.apple.dock.plist

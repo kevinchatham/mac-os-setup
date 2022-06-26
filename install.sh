@@ -12,6 +12,10 @@ echo "----- install homebrew ------"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile;
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+echo "----- install azure functions core tools ------"
+brew tap azure/functions
+brew install azure-functions-core-tools@4
+
 echo "----- install powershell ------"
 brew install --cask powershell
 

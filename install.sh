@@ -115,6 +115,7 @@ npm install -g eslint
 echo "----- configuring git ------"
 git config --global user.name kevinchatham
 git config --global user.email 40923272+kevinchatham@users.noreply.github.com
+git config --global init.defaultBranch main
 
 echo "----- installing oh my zsh ------"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

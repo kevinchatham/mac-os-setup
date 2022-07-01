@@ -38,8 +38,9 @@ cp ~/Git/mac-os-setup/org.keepassxc.keepassxc.plist ~/Library/Preferences/
 # Backup
 # cp ~/Library/Preferences/org.keepassxc.keepassxc.plist ~/Git/mac-os-setup/
 
-echo "----- install github desktop ------"
-brew install --cask caffeine
+# Modern Equivilant but manual install needed: https://apps.apple.com/us/app/amphetamine/id937984704?mt=12
+# echo "----- install caffeine ------"
+# brew install --cask caffeine
 
 echo "----- install fira code ------"
 brew tap homebrew/cask-fonts

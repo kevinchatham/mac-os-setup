@@ -28,6 +28,9 @@ brew install --cask github
 echo "----- install vs code ------"
 brew install --cask visual-studio-code
 
+echo "----- install pg admin ------"
+brew install --cask pgadmin4
+
 echo "----- install keepass ------"
 brew install --cask keepassxc
 cp ~/Git/mac-os-setup/org.keepassxc.keepassxc.plist ~/Library/Preferences/
